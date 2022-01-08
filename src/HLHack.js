@@ -10,6 +10,7 @@ class Game
   round = 0;
   constructor()
   {
+    $("#mainSignsBoxRow").html("");
     for(let i = 0; i < 3; i++){
       this.array.push(SIGNS[randomInt(3)]);
     }
