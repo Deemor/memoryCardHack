@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8" />
+	<title>MemoryCardHack</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="src/HLHack.js" defer></script>
+</head>
+
+<body style="background-color: black; ">
+	<div id="buttonDiv">
+		<button type="button" class="btn btn-primary btn-lg mx-auto d-flex" id="buttonStart"
+			style="margin-top:300px;">Start hack</button>
+		<nav class="navbar fixed-bottom navbar-dark bg-dark">
+			<a class="navbar-brand p-3" href="#">MemoryCard - Odwzorowanie hacka z serwera 5City GTA V
+				RolePlay</a>
+		</nav>
+	</div>
+	<div id="window">
+
+		<div id="main" class="container">
+			<div id="mainTextTop" class="container-fluid text-center mt-5 fw-bold">
+				Czy wartość odkrytej komórki jest taka sama jak wartość pierwszej komórki od lewej?<br />
+				← NIE | TAK →
+			</div>
+
+			<div id="mainSignsBox" class="container p-0">
+				<div class="row m-0 g-0 p-0" id="mainSignsBoxRow">
+					<!-- TUTAJ KAFELKI -->
+				</div>
+
+			</div>
+			<div id="mainTextBottom" class="container mt-5 fw-bold fs-3">
+				PRZYGOTUJ SIĘ
+			</div>
+		</div>
+		<div class="container mt-3" id="progressBarBox">
+			<div class="row align-content-center">
+				<div class="col-9 my-auto align-content-center">
+					<div class="progress" style="height: 3px;  background-color: #190732;">
+						<div class="" role="progressbar" id="progress-bar" style=" background-color: #eafa20;"></div>
+					</div>
+				</div>
+				<div class="col-3">
+					<p class="h3 fw-bold text-end" style="color: #eafa20;" id="navText">Memory Card</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+#window
+{
+    display:none;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    width:1300px;
+    height:700px;
+    background-color: #190732;
+    border: 1px solid #eafa20;
+    border-radius:5px;
+    color: #eafa20;
+}
+
+#main
+{
+    width:1000px;
+    height:520px;
+    margin-top:40px;
+    border: 1px solid #362252;
+    background-color: #190732;
+    
+}
+
+#mainTextTop
+{
+    color:#eaf922;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-align:center;
+}
+
+#mainTextBottom
+{
+    color:#eaf922;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-align:center;
+}
+
+
+#mainSignsBox
+{
+    margin-top:100px;
+    width:422px;
+    height:140px;
+    border: 1px solid #362252;
+}
+
+.mainSignBox
+{
+    width:140px;
+    height:140px;
+}
+.mainSignBoxFilled
+{
+    width:140px;
+    height:140px;
+    background-color: #eaf922;
+    -webkit-filter: drop-shadow( 0px 0px 15px #eaf922);
+    filter: drop-shadow( 0px 0px 15px #eaf922);
+}
+.mainSignBoxTextTop
+{
+    padding-right:10px;
+    padding-top:15px;
+    width:140px;
+    font-size:20px;
+}
+.mainSignBoxTextTopFilled
+{
+    padding-right:10px;
+    padding-top:15px;
+    width:140px;
+    font-size:20px;
+    color:#362252;
+}
+.mainSignBoxTextBottom
+{
+    line-height:40px;
+    font-size:90px;
+}
+#progressBarBox{
+    width:1000px;
+}
