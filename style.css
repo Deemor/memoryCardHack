@@ -37,11 +37,10 @@
 }
 
 
-#mainSignsBox
-{
-    margin-top:100px;
-    width:422px;
-    height:140px;
+#mainSignsBox {
+    margin-top: 100px;
+    width: 423px;
+    height: 140px;
     border: 1px solid #362252;
 }
 
